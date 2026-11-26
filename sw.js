@@ -1,5 +1,5 @@
 // Caches the app so it opens with no internet connection.
-const CACHE = 'spending-v1';
+const CACHE = 'spending-v2';
 const FILES = ['./', 'index.html', 'manifest.json', 'icon.png'];
 
 self.addEventListener('install', e => {
